@@ -35,6 +35,5 @@ function closeModal() {
 
     modal.style.display = 'none';
     modalImage.src = '';
-    modalVideo.src = '';
+    modalVideo.src = ''; // Pode ser desnecessário dependendo da implementação do elemento video
 }
-
