@@ -20,7 +20,7 @@ function showModal(type) {
         modalImage.style.display = 'block';
         modalVideo.style.display = 'none';
     } else if (type === 'video') {
-        modalVideo.src = 'https://www.youtube.com/watch?v=JUlRJvKwgL4';
+        modalVideo.src = 'https://youtu.be/JUlRJvKwgL4';
         modalVideo.style.display = 'block';
         modalImage.style.display = 'none';
     }
