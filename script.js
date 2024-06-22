@@ -16,11 +16,11 @@ function showModal(type) {
     const modalVideo = document.getElementById('modalVideo');
 
     if (type === 'image') {
-        modalImage.src = 'https://cdn.discordapp.com/attachments/793951417312346154/1253911822512291931/Thank_You.jpg?ex=667793e3&is=66764263&hm=66c47f92e8676b2597243e1128ada78dcf1b355aea46dd5703730c8252e8a338&';
+        modalImage.src = 'https://cdn.discordapp.com/attachments/793951417312346154/1253815095046443171/Thank_You.jpg?ex=667739cd&is=6675e84d&hm=0ea31919aa71b22889c3ad62f83b5c1f85137146d66e68558729a83f8b5eb32a&';
         modalImage.style.display = 'block';
         modalVideo.style.display = 'none';
     } else if (type === 'video') {
-        modalVideo.src = 'https://youtu.be/JUlRJvKwgL4';
+        modalVideo.src = 'https://www.youtube.com/embed/JUlRJvKwgL4';
         modalVideo.style.display = 'block';
         modalImage.style.display = 'none';
     }
@@ -37,3 +37,4 @@ function closeModal() {
     modalImage.src = '';
     modalVideo.src = '';
 }
+
